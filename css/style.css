@@ -1,0 +1,1264 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ol, ul {
+	list-style: none;
+}
+del {
+	text-decoration: line-through;
+}
+body {
+	font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	color: #000;
+	overflow-x: hidden;
+	min-width: 320px;
+	font-weight: 500;
+}
+input,textarea,select{
+	font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+	font-weight: 500;
+}
+
+a{
+	color: #000;
+}
+.thumb{
+	display: block;
+}
+.thumb img{
+	display: block;
+	width:100%;
+}
+p{
+	line-height:1.6em;
+	font-size: 16px;
+	font-family: "GT-Eesti", Arial;
+	font-weight: 500;
+	color: #000;
+}
+.hidden{
+	display:none;
+}
+br.clear {
+	clear: both;
+	line-height: 0;
+}
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	max-width:1200px;
+}
+.flex-wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+@font-face {
+    font-family: 'GT-Eesti';
+    src: url("../fonts/GT-Eesti-Pro-Text-Light.woff2") format("woff2");
+    src: url("../fonts/GT-Eesti-Pro-Text-Light.woff") format("woff"), url("../fonts/GT-Eesti-Pro-Text-Light.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'GT-Eesti';
+    src: url("../fonts/GT-Eesti-Pro-Text-Regular.woff2") format("woff2");
+    src: url("../fonts/GT-Eesti-Pro-Text-Regular.woff") format("woff"), url("../fonts/GT-Eesti-Pro-Text-Regular.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'GT-Eesti';
+    src: url("../fonts/GT-Eesti-Pro-Text-Medium.woff2") format("woff2");
+    src: url("../fonts/GT-Eesti-Pro-Text-Medium.woff") format("woff"), url("../fonts/GT-Eesti-Pro-Text-Medium.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'GT-Eesti';
+    src: url("../fonts/GT-Eesti-Pro-Text-Bold.woff2") format("woff2");
+    src: url("../fonts/GT-Eesti-Pro-Text-Bold.woff") format("woff"), url("../fonts/GT-Eesti-Pro-Text-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal
+}
+::placeholder {
+  color: #9B9B9B;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #9B9B9B;
+}
+
+::-ms-input-placeholder {
+  color: #9B9B9B;
+}
+header{
+	width: 100%;
+	
+}
+header #top{
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+	padding: 25px 0;
+}
+header section #top div.left{
+	width: 10%;
+}
+section #top div.left a{
+	display: inline-block;
+}
+header section #top div.left a img{
+	display: block;
+	width: 100%;
+}
+header section #top div.Middle{
+
+}
+header section #top div.Middle ul{
+	display: flex;
+	justify-content: space-between;
+}	
+header section #top div.Middle ul li{
+	color: gray;
+	margin-right: 20px;
+	
+}
+
+header section #top div.Middle ul li a{
+	font-weight: 600;
+	display: inline-block;
+}
+header section #top div.Middle ul li:last-child{
+	margin-right: 0px;
+}
+header section #top div.Middle ul li a:hover{
+	text-decoration: underline #160647;
+}
+header section #top div.right{
+
+}
+header section #top div.right ul{
+	display: flex;
+}
+header section #top div.right ul li{
+	margin-left: 30px;
+	
+
+}
+header section #top div.right ul li:first-child{
+	margin-left: 0;
+}
+header section #top div.right ul li a{
+	font-weight: 600;
+}
+header section #top div.right ul li a.button{
+	padding: 10px 15px;
+    border-radius: 15px;
+	color:#ff794b;
+	background: #ffe4da;
+	font-weight: 600;
+	
+}
+header section #top div.right ul li a.button:hover{
+	color:#fff;
+	background: #ff794b;
+}
+
+#spotlight {
+
+}
+#spotlight section.wrapper {
+	
+}
+#spotlight div.top {
+	display: flex;
+	justify-content: space-between;
+}
+#spotlight div.top div.spot-left {
+	width: 50%;
+	margin-left: 70px;
+	margin-top: 105px;
+}
+#spotlight div.top div.spot-left h1 {
+	font-weight: 700;
+	font-size: 50px;
+}
+#spotlight div.top div.spot-left p {
+	font-size: 20px;
+	padding: 20px 0;
+	font-weight: 600;
+}
+#spotlight div.top div.spot-left form {
+	margin-top: 20px;
+}
+#spotlight div.top div.spot-left form input[type="email"] {
+	border: 1px solid #312d2d;
+	padding: 12px 174px 12px 5px;
+	border-radius: 8px;
+}
+#spotlight div.top div.spot-left form input[type="submit"] {
+	position: absolute;
+	border: 1px solid #0052cc;
+	background: #0052cc;
+	color: #ffff;
+	padding: 12px 24px;
+	border-radius: 8px;
+	left: 372px;
+}
+#spotlight div.top div.spot-left form input[type="submit"]:hover{
+	color:#0052cc;
+	background: #fff;
+}
+#spotlight div.top div.spot-right {
+	margin-top: 60px;
+}
+#spotlight div.top div.spot-right div.round {
+	position: absolute;
+	border-radius: 50%;
+	background: #ff8961;
+	width: 80px;
+	height: 80px;
+	z-index: 1;
+	right: 387px;
+    top: 116px;
+
+}
+#spotlight div.top div.spot-right div.round img {
+	position: absolute;
+	z-index: 1;
+	right: 33px;
+	top: 33px;
+	filter: invert(1);
+}
+#spotlight div.top div.spot-right img.dotted {
+	position: absolute;
+	right: 478px;
+    top: 150px;
+	z-index: 1;
+}
+#spotlight div.top div.spot-right img.hero {
+	width: 100%;
+	display: block;
+	position: relative;
+}
+#spotlight div.bottom {
+	width: 100%;
+	margin-top: 70px;
+}
+#spotlight div.bottom p {
+	text-align: center;
+	font-weight: 600;
+	font-size: 16px;
+}
+#spotlight div.bottom ul {
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+#spotlight div.bottom ul li {
+	
+}
+#spotlight div.bottom ul li:last-child {
+	margin-right: 0;
+}
+#spotlight div.bottom ul li img {
+	
+}
+#main {
+	margin-top: 50px;
+}
+#main section.wrapper {
+
+}
+#main div.item {
+	display: flex;
+	justify-content: center;
+	margin-top: 120px;
+	width: 100%;
+	align-items: center;
+}
+#main div.item div.left {
+
+}
+#main div.item div.left img {
+	width: 100%;
+	display: block;
+}
+#main div.item div.right {
+	width: 33%;
+	margin-left: 100px;
+}
+#main div.item div.right div.round {
+	border-radius: 45%;
+	width: 60px;
+	height: 60px;
+	position: relative;
+	background: #ff8961;
+}
+#main div.item div.right div.round img {
+	position: absolute;
+	top: -2px;
+    left: 20px;
+}
+#main div.item div.right h3 {
+	font-size: 36px;
+	font-weight: 700;
+	margin-top: 25px;
+}
+#main div.item div.right p {
+	padding: 30px 0;
+}
+#main div.item div.right a.button {
+	background: #0052cc;
+	border: 1px solid #0052cc;
+	color: #ffff;
+	padding: 16px 32px;
+	border-radius: 8px;
+	font-size: 14px;
+	font-weight: 500;
+}
+#main div.item div.right a.button:hover{
+	background: #fff;
+	color: #0052cc;
+}
+#main div.item div.right hr.line {
+	border-bottom: 1px dotted #444;
+	margin-top: 60px;
+	width: 40%;
+}
+#main div.item div.right p.quote {
+	color: #837777;
+}
+#main div.item div.right p {
+	color: #837777;
+	font-weight: normal;
+}
+#main div.item div.right p span{
+	color: #837777;
+	font-weight: 700;
+} 
+#main div.item div.right img {
+	display: block;
+	margin-top: 20px;
+}
+#main div.item.bg {
+	background: #f8f8f8;
+	width: 100%;
+	
+}
+#main div.item div.right div.round.yellow {
+	background: #ffc836;
+}
+#main div.item div.right div.round.green {
+	background: #3dd278;
+}
+#video {
+	margin-left: 50px;
+}
+#video div.top {
+	margin-top: 140px;
+	position: relative;
+}
+#video div.top h1 {
+	font-size: 42px;
+	font-weight: 800;
+	width: 40%;
+}
+#video div.bottom {
+
+}
+#video div.bottom ul {
+	margin-top: 60px;
+	display: flex;
+	justify-content: center;
+}
+#video div.bottom ul li {
+	width: 30%;
+	margin-right: 40px;
+	position: relative;
+}
+#video div.bottom ul li div.image {
+
+}
+#video div.bottom ul li div.image img {
+	width: 100%;
+	border-radius: 4px;
+}
+#video div.bottom ul li div.play {
+	position: absolute;
+	height: 65px;
+	width: 65px;
+	background: #ffff;
+	z-index: 1;
+	top: 22px;
+	right: 17px;
+	border-radius: 50%;
+
+}
+#video div.bottom ul li div.play img {
+	position: absolute;
+	top: 27px;
+	left: 27px;
+}
+#video div.bottom ul li div.logo {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	width: 105px;
+	height: 50px;
+	background: #ffff;
+	left: 10px;
+	bottom: 140px;
+	border-radius: 10px;
+}
+#video div.bottom ul li div.logo img {
+
+}
+#video div.bottom ul li p {
+	font-size: 24px;
+	font-weight: 700;
+	margin-top: 10px;
+}
+#about {
+	margin-top: 150px;
+}
+#about section.wrapper {
+
+}
+#about ul {
+	display: flex;
+}
+#about ul li {
+	width: 45%;
+	margin: 0 auto ;
+	position: relative;
+}
+#about ul li div.image-container{
+	width: 100%;
+}
+#about ul li div.image-container img {
+	width: 100%;
+}
+#about ul li div.logo {
+	width: 20%;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	position: absolute;
+	z-index: 1;
+	background: #ffff;
+	top: 415px;
+	left: 20px;
+	padding: 20px;
+	justify-content: center;
+	border-radius: 8px;
+}
+#about ul li div.logo img {
+	width: 100%;
+	padding: 5px 5px;
+}
+#about ul li p.content {
+	font-size: 24px;
+	font-weight: 800;
+	margin-bottom: 15px;
+}
+#about ul li p.name {
+	font-weight: 700;
+}
+#about ul li p.pos {
+	font-weight: normal;
+}
+#about ul li p {
+	font-weight: 700;
+}
+#marketing {
+	margin-top: 100px;
+	background: #f8f8f8;
+
+}
+#marketing section.wrapper {
+
+}
+#marketing div.top {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	text-align: center;
+	height: 250px;
+}
+#marketing div.top h2 {
+	font-weight: 700;
+	font-size: 42px;
+	width: 45%;
+	margin-botoom: 100px;
+
+}
+#marketing div.con {
+
+}
+#marketing div.con ul {
+	margin-top: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	text-align: center;
+}
+#marketing div.con ul li {
+	width: 33%;
+	border-right: 3px dotted #d6d6d6;
+	padding-top: 100px;
+}
+#marketing div.con ul li:nth-child(3n) {
+	border-right: none;
+}
+#marketing div.con ul li div.img-container {
+	width: 50%;
+	margin: 0 auto 25px;
+}
+#marketing div.con ul li div.img-container img {
+
+}
+#marketing div.con ul li h3 {
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+#marketing div.con ul li p {
+	width: 50%;
+	margin: 0 auto;
+	font-weight: 600;
+	
+}
+#demo{
+	width: 100%;
+	background:#f8f8f8;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+#demo div.full{
+	background: #d0dfff;
+	width: 50%;
+	margin: 0 auto;
+	border-radius: 8px;
+	padding: 2% 3%;
+	position: relative;
+}
+#demo div.full div.star{
+	position: absolute;
+	background: white;
+	width: 8%;
+	height: 30%;
+	bottom: 85%;
+	left: 6%;
+	border-radius: 50px;
+}
+#demo div.full div.star img{
+	position: absolute;
+	display: block;
+	left: 34%;
+	top: 25%;
+}
+#demo div.full div.p{
+	display: flex;
+	justify-content: space-between;
+	
+}
+#demo div.full div.p p{
+	padding-right: 20px;
+	width: 50%;
+	font-size: 20px;
+	font-weight: 700;
+}
+#demo div.full div.p a.button{
+	background: #0052cc;
+	height: 50px;
+	padding: 12px 24px;
+	border-radius: 8px;
+	margin: auto 0;
+	display: flex;
+	align-items: center;
+	color: #ffff;
+}
+#demo div.full div.p a.button:hover{
+	background: white;
+	color: #0052cc;
+	border: 2px solid;
+}
+#products{
+	margin-top: 80px;
+}
+#products section.wrapper{}
+#products div.top{
+	width: 100%;
+}
+#products div.top h1{
+	width: 38%;
+	font-size: 35px;
+	font-weight: 700;
+	margin: 0 auto;
+	text-align: center;
+}
+#products div.bottom{
+	display: flex;
+	margin-top: 10%;
+}
+#products div.bottom div.card{
+	width: 33%;
+	height: 100vh;
+	text-align: center;
+	position: relative;
+	border-radius: 3%;
+	
+}
+#products div.bottom div.card:first-child{
+	margin-right: 3%;
+}
+#products div.bottom div.card:last-child{
+	margin-left: 3%;
+}
+#products div.bottom div.card.a{
+	background: #d0dfff;
+}
+#products div.bottom div.card.b{
+	background: #fef4d7;
+}
+#products div.bottom div.card.c{
+	background: #ffe4da;
+}
+#products div.bottom div.card div.logo{
+	width: 14%;
+	margin: 0 auto;
+	padding: 3% 3%;
+	align-content: center;
+	border-radius: 15px;
+	background: white;
+	margin-top: 20px;
+}
+#products div.bottom div.card div.logo img{
+	display: block;
+	width: 100%;
+}
+#products div.bottom div.card h3{
+	width: 47%;
+	margin: 0 auto;
+	font-size: 35px;
+	font-weight: 500;
+	text-align: center;
+}
+#products div.bottom div.card p{
+	text-align: center;
+	width: 70%;
+	margin: 20px auto;
+}
+#products div.bottom div.card a.button{
+	display: block;
+	padding: 15px 24px;
+	margin: 0 auto;
+	width: 40%;
+	border-radius: 8px;
+	font-weight: 600;
+	color: #ffff;
+}
+#products div.bottom div.card.b a.button:hover, #products div.bottom div.card.a a.button:hover ,#products div.bottom div.card.c a.button:hover{
+	color: black;
+	background: white;
+	border: 1px solid;
+}
+#products div.bottom div.card.a a.button{
+	background:#0052cc ;
+}
+#products div.bottom div.card.b a.button{
+	background: #ffc836;
+}
+#products div.bottom div.card.c a.button{
+	background: #ff794b;
+}
+#products div.bottom div.card div.bg{
+	position: absolute;
+	left: 5%;
+	width: 90%;
+	top: 60%;
+	border-radius: 41px;
+}
+#products div.bottom div.card div.bg img{
+	display: block;
+	width: 100%;
+}
+#resource{
+	margin-top: 20%;
+	padding-bottom:20% ;
+}
+#resource section.wrapper{}
+#resource div.top{}
+#resource div.top h3{
+	width: 25%;
+    font-size: x-large;
+    font-weight: 700;
+    font-style: bold;
+	margin-bottom: 50px;
+}
+#resource div.bottom{}
+#resource div.bottom div.card{
+	display: flex;
+	width: 100%;
+	margin-bottom: 5%;
+}
+#resource div.bottom div.card div.card1{
+    width: 33%;
+    margin-right: 3%;
+}
+#resource div.bottom div.card div.card1 div.image{
+	width: 90%;
+}
+#resource div.bottom div.card div.card1 div.image img{
+	display: block;
+	width: 100%;
+}
+#resource div.bottom div.card div.card1 p{
+	font-weight: 700;
+	padding: 25px 0;
+}
+#resource div.bottom div.card div.card1 p span{
+	color: #0052cc;
+	
+}
+#resource div.bottom div.card div.card1 h4{
+	font-weight: 700;
+	font-size: 20px;
+	width: 100%;
+}
+#resource div.bottom a.button1{
+	margin: 0 auto;
+	display: block;
+	width: max-content;
+	background: #0052cc;
+	padding: 12px 24px;
+	border-radius: 8px;
+	color: white;
+}
+#resource div.bottom a.button1:hover{
+	color: #0052cc;
+	background: white;
+	border: 2px solid;
+}
+#resource div.bottom div.card div.card1 a.button{
+	display: block;
+	font-weight: 400;
+	font-size: 20px;
+	text-decoration: underline;
+	padding: 20px 0;
+}
+#resource div.bottom div.card div.card1 a.button:hover{
+	color: #0052cc;
+}
+#black{
+	background: #000000;
+	padding-top: 35px;
+	padding-bottom: 40px;
+}
+#black section.wrapper{}
+#black div.top{
+	display: flex;
+}
+#black div.top div.left{
+	margin-top: 25px;
+	width: 40%;
+} 
+#black div.top div.left h2{
+	color: #ffff;
+	font-size: 44px;
+	font-weight: 600;
+	width: 50%;
+	margin-bottom: 35px;
+}
+#black div.top div.left p.top{
+	color: #9b9b9b;
+	width: 92%;
+}
+#black div.top div.left hr.line{
+	width: 155px;
+	border-bottom: 2px dotted #9b9b9b;
+	margin-top: 30px;
+	margin-bottom: 25px;
+}
+#black div.top div.left h4{
+	color: #ffff;
+	font-size: 16px;
+	font-weight: 700;
+	margin-bottom: 25px;
+}
+#black div.top div.left p.quotes{
+	color: #ffff;
+	margin-bottom: 25px;
+	font-style: italic;
+	font: weight 400px; ;
+}
+#black div.top div.left p.name{
+	font-weight: 600;
+	color: #ffff;
+}
+#black div.top div.left p.pos{
+	color: #9b9b9b;
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+#black div.top div.left ul{
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	height: 50px;
+}
+#black div.top div.left ul li{
+	margin-right: 20px;
+	border: 3px solid black;
+	border-radius: 50%;
+}
+#black div.top div.left ul li:last-child{
+	margin-right: 0%;
+}
+#black div.top div.left ul li:hover{
+	border: 3px solid salmon;
+}
+#black div.top div.left ul li:first-child{
+	border: 3px solid salmon;
+}
+#black div.top div.left ul li img{
+	border-radius: 50%;
+	width: 100%;
+	display: block;
+}
+#black div.top div.right{
+	width: 40%;
+	margin-left: 150px;
+	background: #ffff;
+	margin-top: 25px;
+	border-radius: 8px;
+	padding: 0px 35px;
+}
+#black div.top div.right div.head{
+	padding-top: 40px;
+	padding-bottom: 45px;
+}
+#black div.top div.right div.head h4{
+	font-size: 22px;
+	font-weight: 700;
+}
+#black div.top div.right form{
+	width: 100%;
+	
+}
+#black div.top div.right form ul{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+	flex-direction: column;
+}
+#black div.top div.right form ul li{
+	margin-top: 2%;
+}
+#black div.top div.right form ul li select{
+	border: 1px solid #dcdcdc;
+	padding: 10px 30px 10px 5px;
+	border-radius: 5px;
+	width: 47%;
+}
+#black div.top div.right form ul li input[type="email"]{
+	border: 1px solid #dcdcdc;
+	padding: 10px 30px 10px 5px;
+	border-radius: 5px;
+}
+#black div.top div.right form ul li input[type="text"]{
+	border: 1px solid #dcdcdc;
+	padding: 10px 30px 10px 5px;
+	border-radius: 5px;
+}
+#black div.top div.right div.privacy{}
+#black div.top div.right div.privacy div.check{
+    display: flex;
+    align-items: baseline;
+}
+#black div.top div.right div.privacy div.check input[type="checkbox"]{
+	width: 4%;
+	height: 16px;
+	margin-right: 4px;
+}
+#black div.top div.right div.privacy div.check p{
+    width: 80%;
+}
+#black div.top div.right div.privacy div.check p a{
+	text-decoration:underline;
+	display: inline-block;  
+	color: #0052cc;      
+}
+#black div.top div.right div.privacy div.button{
+	margin: 0 auto;
+	display: block;
+	width: max-content;
+	background: #0052cc;
+	padding: 12px 24px;
+	border-radius: 8px;
+	color: white;
+	width: 80%;
+	text-align: center;
+	margin-top: 8%;
+}
+#black div.top div.right div.privacy div.button:hover{
+background: white;
+	border: 2px solid #0052cc;
+}
+#black div.bottom{
+	width: 50%;
+}
+#black div.bottom ul{
+	display: flex;
+	justify-content: start;
+	align-items: center;
+}
+#black div.bottom ul li{
+    margin-right: 20px;
+}
+#black div.bottom ul li img{}
+
+footer {
+	padding: 5% 0%;
+	
+}
+footer section.wrapper { 
+	display: flex;
+	justify-content: space-between;
+}
+footer section.wrapper div.left {width: 50%;}
+footer section.wrapper div.left p {width: 42%;font-size: larger;font-weight: 600;margin-bottom: 5%;}
+
+footer section.wrapper div.left div.social {width: 75%;margin-bottom: 4%;}
+footer section.wrapper div.left div.social ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 75%;
+}
+footer section.wrapper div.left div.social ul li {
+	width: 15%;
+	padding: 3% 3%;
+	border-radius: 50%;
+	background: #f0f0f0;
+}
+footer section.wrapper div.left div.social ul li img {
+	display: block;
+	width: 100%;
+	filter: grayscale(100%);
+	opacity: 0.3;
+}
+footer section.wrapper div.left ul.lang {
+	display: flex;
+	width: 13%;
+	align-items: center;
+	justify-content: space-around;
+}
+footer section.wrapper div.left ul.lang li {
+	width: 33%;
+}
+footer section.wrapper div.left ul.lang li p{
+	width: 152px;
+}
+footer section.wrapper div.left ul.lang li img { 
+	display: block;
+	width: 100%;
+}
+
+footer section.wrapper div.right {
+	display: flex;
+	width: 100%;
+}
+footer section.wrapper div.right div.item {width: 30%;}
+
+footer section.wrapper div.right div.item h3 { 
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+
+footer section.wrapper div.right div.item ul{
+	width: 100%;
+}
+footer section.wrapper div.right div.item ul li{
+	margin-bottom: 10px;
+}
+footer section.wrapper div.right div.item ul li img {
+	width: 10%;
+	margin-right: 10px;
+}
+footer section.wrapper div.left div.social ul li:hover{
+	border: 2px solid red;
+}
+@media all and (max-width: 1280px){	
+	header section #top div.Middle ul li {
+		margin-right: 15px;
+	}
+	header section #top div.right ul li {
+		margin-left: 15px;
+	}
+	#spotlight div.top div.spot-right div.round {
+		right: 275px;
+		top: 85px;
+		width: 67px;
+		height: 67px;
+	}
+	#spotlight div.top div.spot-right div.round img{
+		right: 29px;
+		top: 27px;
+	}
+	#spotlight div.top div.spot-right img.dotted {
+		right: 347px;
+		top: 117px;
+	}
+	#spotlight div.top div.spot-left{
+		margin-top: 70px;
+	}
+	#spotlight div.top div.spot-left h1 {
+		font-size: 45px;
+	}
+	#spotlight div.top div.spot-left p {
+		font-size: 18px;
+	}
+	#spotlight div.top div.spot-left form input[type="email"] {
+		padding: 10px 70px 12px 6px;
+	}
+	#spotlight div.top div.spot-left form input[type="submit"] {
+		left: 340px;
+	}
+	#spotlight div.top div.spot-right img.hero {
+		width: 90%;
+		margin-left: 9%;
+	}
+	#spotlight div.bottom ul li {
+		margin-right: -80px;
+	}
+	#main div.item div.right h3 {
+		font-size: 23px;
+		font-weight: 600;
+		margin-top: 10px;
+	}
+	#main div.item div.right div.round {
+		width: 55px;
+		height: 55px;
+	}
+	#main div.item div.right div.round img {
+		top: -7px;
+		left: 17px;
+	}
+	#main div.item div.right {
+		width: 51%;
+		margin-left: 40px;
+	}
+	#main div.item div.right p {
+		width: 61%;
+	}
+	#main div.item div.right a.button {
+		padding: 8px 22px;
+	}
+	#video div.top h1 {
+		font-size: 35px;
+		font-weight: 700;
+		width: 35%;
+	}
+	#video div.bottom ul li div.logo {
+		left: 10px;
+		bottom: 120px;
+		padding: 10px;
+    	width: 90px;
+    	height: 50px;
+	}
+	#video div.bottom ul li div.play {
+		top: 14px;
+    	right: 14px;
+		height: 37px;
+    	width: 38px;
+	}
+	#video div.bottom ul li div.play img {
+		top: 13px;
+	    left: 16px;
+	}
+	#video div.bottom ul li p {
+		font-size: 20px;
+	}
+	#about ul li div.image-container {
+		width: 70%;
+	}
+	#about ul li p.content {
+		font-size: 20px;
+		font-weight: 700;
+		width: 80%;
+	}
+	#main div.item div.right p {
+	    padding: 20px 0;
+	}
+	#about ul li div.logo {
+	    top: 38%;
+	    left: 2%;
+	}
+	#demo div.total {
+	    width: 80%;
+	}	
+	#products div.bottom div.card a.button {
+		padding: 12px 24px;
+		width: 46%;
+	}
+	#black div.top div.right form ul li{
+		display: flex;
+	}
+	#black div.top div.right {
+		padding: 0 15px;
+	}
+	#black div.top div.right form ul li input[type="email"] {
+		padding: 10px 3px 10px 5px;
+    	margin-right: 2%;
+	}
+	#black div.top div.right form ul li input[type="text"] {
+		padding: 10px 3px 10px 5px;
+    	margin-right: 2%;
+	}
+	#black div.top div.right form ul li select {
+		width: 47%;
+		margin-right: 2%;
+		padding: 7px 10px 6px 7px;
+	}
+	#black div.top div.right div.privacy div.button {
+		width: 60%;
+		margin-bottom: 5%;
+	}
+	#black div.top div.right{
+		height: 49%;
+		width: 55%;
+		margin-left: 278px;
+		margin-top: 26px;
+		padding: 0px 35px;
+	}
+}
+@media all and (max-width: 1050px){
+	#video div.bottom ul li div.logo {
+		width: 86px;
+   	 	height: 35px;
+		top: 46%;
+	}
+	#about ul li div.logo {
+		top: 36%;
+		left: 4%;
+		width: 25%;
+	}
+	#demo div.full div.star {
+		width: 10%;
+	}
+	#demo div.full div.star img{
+		left: 30%;
+    	top: 29%;
+	}
+	#black div.top div.left h2 {
+		width: 60%;
+	}
+	#black div.top div.right {
+		margin-top: 160px;
+	}
+}
+@media all and (max-width: 980px){
+	header section #top div.Middle ul {
+		display: none;
+	}
+	header section #top div.left {
+		width: 13%;
+	}
+	#spotlight div.top div.spot-right div.round {
+		right: 188px;
+   	 	top: 77px;
+    	width: 51px;
+    	height: 56px;
+	}
+	#spotlight div.top div.spot-right div.round img {
+		right: 20px;
+		top: 23px;
+	}
+	#spotlight div.top div.spot-right img.dotted {
+		right: 240px;
+		top: 112px;
+		width: 7%;
+	}
+	#spotlight div.top div.spot-left h1 {
+		font-size: 30px;
+	}
+	#spotlight div.top div.spot-left form input[type="submit"] {
+		left: 290px;
+	}
+	#spotlight div.bottom ul li img {
+		width: 60%;
+	}
+	#main div.item div.right p {
+		width: 100%;
+	}
+	#about ul li div.logo {
+		top: 29%;
+		left: 4%;
+		width: 21%;
+		height: 7px;
+	}
+	#video div.top h1 {
+		font-size: 30px;
+	}
+	#video div.bottom ul li p {
+		font-size: 16px;
+	}
+	#about ul li div.logo img {
+		padding: 0;
+	}
+	#demo div.full div.star {
+		width: 12%;
+		height: 45%;
+		top: -28%;
+	}
+	#demo div.full div.p p {
+		width: 100%;
+		font-size: 12px;
+	}
+	#demo div.full div.p a.button {
+		background: #0052cc;
+		height: 39px;
+		width: 46%;
+		font-size: 16px;
+		padding: 6px 11px;
+	}
+	#demo div.full div.star img {
+		left: 30%;
+		top: 24%;
+	}
+	#products div.top h1 {
+		width: 55%;
+		font-size: 28px;
+		font-weight: 600;
+	}
+	#products div.bottom div.card h3 {
+		font-size: 24px;
+	}
+	#resource div.top h3 {
+		width: 28%;
+	}
+}
+
+
+
+
